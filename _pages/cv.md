@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育背景
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 认知科学博士，东南科技学院，2023
+* 计算认知系统硕士，东南科技学院，2020
+* 软件工程学士，东华理工大学，2018
 
-Work experience
+工作经历
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024–至今：研究科学家
+  * 东南科技学院
+  * 领导人机协同、交互可视化和科研可重复性项目。
+  * 导师：赵明教授
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021–2023：研究助理
+  * 东南科技学院
+  * 开发认知建模和可视化仪表盘的机器学习管道。
+  * 导师：陈瑞博士
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2020–2021：助教
+  * 东南科技学院
+  * 支持数据科学和人机交互本科课程。
+  * 协调员：刘霞教授
   
-Skills
+技能
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 人机交互设计
+* 数据可视化和探索性分析
+* Python、R、JavaScript
+* 机器学习和统计建模
+* 开源科研工具和可重复性
 
-Publications
+出版物
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+演讲
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+教学
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+服务与领导
 ======
-* Currently signed in to 43 different slack teams
+* 国际人机交互会议评审员
+* 贡献开源工具以提高科研可重复性
